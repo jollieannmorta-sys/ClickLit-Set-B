@@ -34,6 +34,7 @@ body{
 .brand-text small{display:block;font-size:.62em;font-weight:500;opacity:.95;margin-top:2px}
 .top .right{display:flex;gap:8px;align-items:center;flex:none;min-width:0}
 .who{font-size:1rem;font-weight:700;background:rgba(255,255,255,.28);padding:4px 12px;border-radius:99px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:min(46vw,230px)}
+#homeTitle{white-space:nowrap}
 @media (max-width:560px){.brand-text small{display:none}.brand-logo{width:42px;height:42px}.who{max-width:38vw;font-size:.9rem;padding:4px 10px}}
 #soundBtn{border:0;border-radius:99px;background:rgba(255,255,255,.35);color:#fff;font-size:1.1rem;width:40px;height:40px;cursor:pointer}
 

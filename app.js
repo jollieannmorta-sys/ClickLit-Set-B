@@ -1,4 +1,4 @@
-/* Teacher Jollie's Reading Adventure (Set 2) – app logic. Content lives in data.js */
+/* ClickLit Set B – app logic. Content lives in data.js */
 (function () {
   "use strict";
 
@@ -194,8 +194,8 @@
       h("div", { class: "school-card" },
         h("img", { src: SITE.logo, alt: SITE.school + " logo" }),
         h("div", {}, h("div", { class: "sn" }, SITE.school), h("div", { class: "sp" }, "📍 " + SITE.place))),
-      h("div", { class: "ribbon" }, "👩‍🏫 " + SITE.corner),
-      h("h1", { class: "hero" }, rainbow("Reading Adventure"), " 🧭"),
+      h("div", { class: "ribbon" }, "🖱️ " + SITE.corner),
+      h("h1", { class: "hero" }, rainbow(SITE.title), " 🧭"),
       h("div", { class: "owl" },
         h("span", { class: "owl-face" }, "🦜"),
         h("div", { class: "bubble" }, "Squawk! I'm Kiko, " + SITE.owner + "'s helper. Follow the map, finish each island and collect your badges!"))
@@ -770,10 +770,10 @@
   }
 
   /* ---------- start ---------- */
-  document.title = SITE.title;
+  document.title = SITE.title + " – " + SITE.tagline;
   const hs = document.getElementById("homeSchool"), ht = document.getElementById("homeTitle"), fs = document.getElementById("footSchool"), cr = document.getElementById("credit");
   if (ht) ht.textContent = SITE.title;
-  if (hs) hs.textContent = SITE.school;
+  if (hs) hs.textContent = SITE.tagline;
   if (fs) fs.textContent = SITE.school + " · " + SITE.place;
   if (cr) cr.textContent = "👩‍🏫 Made with ❤️ by " + SITE.owner;
   document.getElementById("homeBtn").addEventListener("click", home);

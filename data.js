@@ -1,5 +1,5 @@
 /* =========================================================
-   TEACHER JOLLIE'S READING ADVENTURE (SET 2) – CONTENT
+   CLICKLIT SET B – CONTENT
    Edit this file to change words, sentences, quizzes, stories.
 
    Activity types
@@ -17,8 +17,10 @@
 
 const SITE = {
   owner: "Teacher Jollie",
-  title: "Teacher Jollie's Reading Adventure",
-  corner: "Teacher Jollie's Reading Corner",
+  brand: "ClickLit",
+  tagline: "Clicking Toward Literacy",
+  title: "ClickLit Set B",
+  corner: "ClickLit: Clicking Toward Literacy",
   school: "Froilan E. Lopez Elementary School",
   place: "Tayabas City",
   logo: "logo.png"

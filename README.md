@@ -1,6 +1,8 @@
-# Teacher Jollie's Reading Adventure (Set 2)
+# ClickLit Set B
 
-A second set of reading games for pupils of Froilan E. Lopez Elementary School, Tayabas City. All words, sentences and stories are new. The format is new too: an adventure map with 8 worlds, badges, ranks and a printable certificate.
+**ClickLit: Clicking Toward Literacy** · by Teacher Jollie · Froilan E. Lopez Elementary School, Tayabas City
+
+ClickLit Set B is a second set of reading games for pupils of Froilan E. Lopez Elementary School, Tayabas City. All words, sentences and stories are new. The format is new too: an adventure map with 8 worlds, badges, ranks and a printable certificate.
 
 ## The 8 worlds
 1. Phonics Park: short vowel words
@@ -23,7 +25,7 @@ Stars (1 to 3) for each activity, a 🏅 badge for each finished world, and a ra
 
 ## Put it online with GitHub Pages
 1. Unzip the file. You will get 7 files: `index.html`, `styles.css`, `data.js`, `app.js`, `README.md`, `logo.png`, `favicon.png`.
-2. Create a NEW repository on GitHub (for example `Teacher-Jollie-s-Reading-Adventure`) so it does not replace Set 1.
+2. Create a NEW repository on GitHub (for example `ClickLit-Set-B`) so it does not replace Set A.
 3. Click **Add file → Upload files** and drag the 7 files (the files themselves, not the zip and not the folder). Click **Commit changes**.
 4. Open **Settings → Pages**. Under **Build and deployment**, choose **Deploy from a branch**, select `main` and `/ (root)`, then Save.
 5. After a minute your site is at `https://<your-username>.github.io/<repository-name>/`.
@@ -39,4 +41,4 @@ On the home page: **My score sheet** (stars earned on that device, with a box fo
 ## Notes
 - The mic check works best on Chrome or Edge, needs internet and microphone permission. Other browsers still get Listen and self-check buttons.
 - The mic check shows only whether the browser recognised the word. It is a guide, not a final judge of pronunciation. Teacher listening is still the best check.
-- Stars are saved only in that pupil's browser on that device. Set 2 keeps its own stars, separate from Set 1.
+- Stars are saved only in that pupil's browser on that device. Set B keeps its own stars, separate from Set A.
